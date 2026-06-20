@@ -67,7 +67,8 @@
   "messages": {
     "ready": "Bereit zum Erstellen von Dateien.",
     "processing": "PDFs werden erstellt...",
-    "generated": "{success} Datei(en) erstellt; {failure} fehlgeschlagen.",
+    "generatedSuccess": "{success} Datei(en) erstellt.",
+    "generatedWithFailures": "{success} Datei(en) erstellt, {failure} fehlgeschlagen.",
     "selectedFiles": "{count} Datei(en) ausgewählt",
     "selectAll": "Wählen Sie zuerst Briefpapier, Eingabe-PDFs und Ausgabeordner aus.",
     "nothingSelected": "Noch keine Dateien ausgewählt.",

@@ -67,7 +67,8 @@
   "messages": {
     "ready": "Ready to generate files.",
     "processing": "Generating PDFs...",
-    "generated": "Generated {success} file(s); {failure} failed.",
+    "generatedSuccess": "{success} file(s) created.",
+    "generatedWithFailures": "{success} file(s) created, {failure} failed.",
     "selectedFiles": "{count} file(s) selected",
     "selectAll": "Select a letterhead, input PDFs, and output directory first.",
     "nothingSelected": "No files selected yet.",

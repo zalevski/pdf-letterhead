@@ -68,7 +68,14 @@ const sidebarStatusText = computed(() => {
   }
 
   if (summary.value) {
-    return t('messages.generated', { success: summary.value.successCount, failure: summary.value.failureCount })
+    if (summary.value.failureCount > 0) {
+      return t('messages.generatedWithFailures', {
+        success: summary.value.successCount,
+        failure: summary.value.failureCount
+      })
+    }
+
+    return t('messages.generatedSuccess', { success: summary.value.successCount })
   }
 
   if (!canGenerate.value) {

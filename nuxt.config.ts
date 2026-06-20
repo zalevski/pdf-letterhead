@@ -5,9 +5,12 @@ export default defineNuxtConfig({
   ssr: false,
   devtools: { enabled: false },
   modules: ['@nuxt/ui'],
+  ui: {
+    fonts: false
+  },
   css: ['~/assets/css/main.css'],
   app: {
-    baseURL: process.env.NODE_ENV === 'production' ? './' : '/'
+    baseURL: './'
   },
   nitro: {
     preset: 'static'

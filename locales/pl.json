@@ -67,7 +67,8 @@
   "messages": {
     "ready": "Gotowe do generowania plików.",
     "processing": "Generowanie PDF-ów...",
-    "generated": "Wygenerowano {success} plik(ów); nie powiodło się {failure}.",
+    "generatedSuccess": "Utworzono {success} plik(ów).",
+    "generatedWithFailures": "Utworzono {success} plik(ów), {failure} nie powiodło się.",
     "selectedFiles": "Wybrano {count} plik(ów)",
     "selectAll": "Najpierw wybierz nagłówek, pliki wejściowe i katalog wyjściowy.",
     "nothingSelected": "Nie wybrano jeszcze żadnych plików.",

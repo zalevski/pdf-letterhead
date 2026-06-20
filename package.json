@@ -10,7 +10,7 @@
     "dev:electron:main": "tsc -p electron/tsconfig.json -w --preserveWatchOutput",
     "dev:electron": "wait-on http://localhost:3000 dist-electron/electron/main/index.js && electron dist-electron/electron/main/index.js",
     "build": "npm run build:renderer && npm run build:electron",
-    "build:renderer": "nuxt build",
+    "build:renderer": "nuxt build && node scripts/postprocess-nuxt-static.mjs",
     "build:electron": "tsc -p electron/tsconfig.json",
     "electron:dev": "npm run dev",
     "electron:build": "npm run build && electron-builder",
@@ -49,6 +49,7 @@
       }
     ],
     "asar": true,
+    "npmRebuild": false,
     "win": {
       "signAndEditExecutable": false,
       "target": [
