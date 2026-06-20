@@ -61,5 +61,5 @@ jobs:
           ACTIONS_ALLOW_USE_UNSECURE_NODE_VERSION: true
         with:
           name: pdf-letterhead-${{ matrix.name }}
-          path: ${{ steps.tauri-build.outputs.artifactPaths }}
+          path: src-tauri/target/release/bundle/**
           if-no-files-found: error
