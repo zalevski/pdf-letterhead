@@ -1,0 +1,98 @@
+{
+  "app": {
+    "title": "PDF Letterhead",
+    "subtitle": "PDFs auf Firmenbriefpapier erstellen"
+  },
+  "language": {
+    "label": "Sprache",
+    "en": "English",
+    "pl": "Polski",
+    "de": "Deutsch"
+  },
+  "theme": {
+    "label": "Design",
+    "dark": "Dunkler Modus",
+    "light": "Heller Modus",
+    "toggle": "Design umschalten"
+  },
+  "states": {
+    "selected": "Ausgewählt",
+    "missing": "Fehlt"
+  },
+  "actions": {
+    "selectLetterhead": "Briefpapier-PDF wählen",
+    "selectInputs": "Eingabe-PDFs wählen",
+    "selectOutput": "Ausgabeordner wählen",
+    "clear": "Auswahl löschen",
+    "removeFile": "Datei entfernen",
+    "generate": "PDFs erstellen",
+    "openOutput": "Ausgabeordner öffnen"
+  },
+  "sections": {
+    "letterhead": "Briefpapier-PDF",
+    "inputs": "Eingabe-PDFs",
+    "output": "Ausgabeordner",
+    "files": "Ausgewählte Dateien",
+    "summary": "Übersicht",
+    "status": "Verarbeitungsstatus"
+  },
+  "summary": {
+    "letterhead": "Briefpapier-PDF",
+    "inputDocuments": "Eingabedokumente",
+    "outputDirectory": "Ausgabeordner",
+    "generationMode": "Erstellungsmodus",
+    "generationModeDescription": "Die App leitet das Layout aus der Briefpapier-PDF ab. Einseitige Dateien werden für jede Seite wiederverwendet. Zweiteilige Dateien nutzen Seite 1 für die erste Ausgabeseite und Seite 2 für den Rest."
+  },
+  "placeholders": {
+    "noLetterhead": "Kein Briefpapier ausgewählt",
+    "noInputs": "Keine Eingabe-PDFs ausgewählt",
+    "noOutput": "Kein Ausgabeordner ausgewählt"
+  },
+  "helper": {
+    "letterhead": "Wählen Sie ein Firmenbriefpapier-PDF aus.",
+    "inputs": "Wählen Sie ein oder mehrere aus Word erzeugte PDFs aus.",
+    "output": "Wählen Sie, wo die erzeugten Dateien gespeichert werden sollen."
+  },
+  "drop": {
+    "letterhead": "Ziehen Sie hier ein Briefpapier-PDF ab.",
+    "inputs": "Ziehen Sie hier ein oder mehrere Eingabe-PDFs ab.",
+    "output": "Ziehen Sie hier einen Ausgabeordner ab."
+  },
+  "status": {
+    "waiting": "wartet",
+    "processing": "wird verarbeitet",
+    "done": "fertig",
+    "error": "fehler"
+  },
+  "messages": {
+    "ready": "Bereit zum Erstellen von Dateien.",
+    "processing": "PDFs werden erstellt...",
+    "generated": "{success} Datei(en) erstellt; {failure} fehlgeschlagen.",
+    "selectedFiles": "{count} Datei(en) ausgewählt",
+    "selectAll": "Wählen Sie zuerst Briefpapier, Eingabe-PDFs und Ausgabeordner aus.",
+    "nothingSelected": "Noch keine Dateien ausgewählt.",
+    "inputFilesEmptyTitle": "Noch keine Eingabedateien",
+    "inputFilesEmptyDescription": "Wählen oder ziehen Sie PDFs hierher, um die Liste zu füllen.",
+    "outputOpened": "Ausgabeordner geöffnet.",
+    "selectOutputAfter": "Nach der Erstellung können Sie den Ausgabeordner öffnen.",
+    "localOnly": "Nur lokal",
+    "privacy": "Alle Dateien werden lokal auf Ihrem Computer verarbeitet. Es wird nichts hochgeladen."
+  },
+  "window": {
+    "minimize": "Fenster minimieren",
+    "maximize": "Fenster maximieren",
+    "close": "Fenster schließen"
+  },
+  "errors": {
+    "NO_LETTERHEAD_SELECTED": "Wählen Sie zuerst ein Briefpapier-PDF aus.",
+    "NO_INPUT_PDFS_SELECTED": "Wählen Sie zuerst mindestens ein Eingabe-PDF aus.",
+    "NO_OUTPUT_DIRECTORY_SELECTED": "Wählen Sie zuerst einen Ausgabeordner aus.",
+    "INVALID_PDF_FILE": "Eine der ausgewählten PDF-Dateien ist ungültig.",
+    "DAMAGED_PDF_FILE": "Eine der ausgewählten PDF-Dateien ist beschädigt.",
+    "UNSUPPORTED_ENCRYPTED_PDF": "Verschlüsselte PDFs werden nicht unterstützt.",
+    "FAILED_TO_READ_FILE": "Die Datei konnte nicht gelesen werden.",
+    "FAILED_TO_WRITE_FILE": "Die Ausgabedatei konnte nicht geschrieben werden.",
+    "OUTPUT_DIRECTORY_NOT_WRITABLE": "Der ausgewählte Ausgabeordner ist nicht beschreibbar.",
+    "UNEXPECTED_PROCESSING_ERROR": "Beim Verarbeiten der PDFs ist ein unerwarteter Fehler aufgetreten."
+  }
+}

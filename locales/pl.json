@@ -1,0 +1,98 @@
+{
+  "app": {
+    "title": "PDF Letterhead",
+    "subtitle": "Generator PDF na papierze firmowym"
+  },
+  "language": {
+    "label": "Język",
+    "en": "English",
+    "pl": "Polski",
+    "de": "Deutsch"
+  },
+  "theme": {
+    "label": "Motyw",
+    "dark": "Tryb ciemny",
+    "light": "Tryb jasny",
+    "toggle": "Przełącz motyw"
+  },
+  "states": {
+    "selected": "Wybrane",
+    "missing": "Brak"
+  },
+  "actions": {
+    "selectLetterhead": "Wybierz PDF papieru firmowego",
+    "selectInputs": "Wybierz pliki PDF wejściowe",
+    "selectOutput": "Wybierz katalog wyjściowy",
+    "clear": "Wyczyść zaznaczenie",
+    "removeFile": "Usuń plik",
+    "generate": "Generuj PDF-y",
+    "openOutput": "Otwórz katalog wyjściowy"
+  },
+  "sections": {
+    "letterhead": "PDF papieru firmowego",
+    "inputs": "Pliki PDF wejściowe",
+    "output": "Katalog wyjściowy",
+    "files": "Wybrane pliki",
+    "summary": "Podsumowanie",
+    "status": "Status przetwarzania"
+  },
+  "summary": {
+    "letterhead": "PDF papieru firmowego",
+    "inputDocuments": "Dokumenty wejściowe",
+    "outputDirectory": "Folder wyjściowy",
+    "generationMode": "Tryb generowania",
+    "generationModeDescription": "Aplikacja sama wyznacza układ na podstawie PDF papieru firmowego. Pliki jednokartkowe są używane dla wszystkich stron. Pliki dwukartkowe używają strony 1 dla pierwszej strony wyjściowej i strony 2 dla pozostałych."
+  },
+  "placeholders": {
+    "noLetterhead": "Nie wybrano papieru firmowego",
+    "noInputs": "Nie wybrano plików PDF wejściowych",
+    "noOutput": "Nie wybrano katalogu wyjściowego"
+  },
+  "helper": {
+    "letterhead": "Wybierz jeden PDF z papierem firmowym.",
+    "inputs": "Wybierz jeden lub więcej PDF-ów wygenerowanych z Worda.",
+    "output": "Wybierz miejsce zapisu wygenerowanych plików."
+  },
+  "drop": {
+    "letterhead": "Przeciągnij tutaj jeden PDF z papierem firmowym.",
+    "inputs": "Przeciągnij tutaj jeden lub więcej plików PDF wejściowych.",
+    "output": "Przeciągnij tutaj folder wyjściowy."
+  },
+  "status": {
+    "waiting": "oczekuje",
+    "processing": "przetwarzanie",
+    "done": "gotowe",
+    "error": "błąd"
+  },
+  "messages": {
+    "ready": "Gotowe do generowania plików.",
+    "processing": "Generowanie PDF-ów...",
+    "generated": "Wygenerowano {success} plik(ów); nie powiodło się {failure}.",
+    "selectedFiles": "Wybrano {count} plik(ów)",
+    "selectAll": "Najpierw wybierz nagłówek, pliki wejściowe i katalog wyjściowy.",
+    "nothingSelected": "Nie wybrano jeszcze żadnych plików.",
+    "inputFilesEmptyTitle": "Brak plików wejściowych",
+    "inputFilesEmptyDescription": "Wybierz lub upuść pliki PDF, aby zbudować listę.",
+    "outputOpened": "Otworzono katalog wyjściowy.",
+    "selectOutputAfter": "Po wygenerowaniu możesz otworzyć katalog wyjściowy.",
+    "localOnly": "Tylko lokalnie",
+    "privacy": "Wszystkie pliki są przetwarzane lokalnie na Twoim komputerze. Nic nie jest wysyłane na zewnętrzne serwery."
+  },
+  "window": {
+    "minimize": "Minimalizuj okno",
+    "maximize": "Maksymalizuj okno",
+    "close": "Zamknij okno"
+  },
+  "errors": {
+    "NO_LETTERHEAD_SELECTED": "Najpierw wybierz PDF papieru firmowego.",
+    "NO_INPUT_PDFS_SELECTED": "Najpierw wybierz co najmniej jeden plik PDF wejściowy.",
+    "NO_OUTPUT_DIRECTORY_SELECTED": "Najpierw wybierz katalog wyjściowy.",
+    "INVALID_PDF_FILE": "Jeden z wybranych plików PDF jest nieprawidłowy.",
+    "DAMAGED_PDF_FILE": "Jeden z wybranych plików PDF jest uszkodzony.",
+    "UNSUPPORTED_ENCRYPTED_PDF": "Zaszyfrowane pliki PDF nie są obsługiwane.",
+    "FAILED_TO_READ_FILE": "Aplikacja nie mogła odczytać pliku.",
+    "FAILED_TO_WRITE_FILE": "Aplikacja nie mogła zapisać pliku wyjściowego.",
+    "OUTPUT_DIRECTORY_NOT_WRITABLE": "Wybrany katalog wyjściowy nie ma uprawnień zapisu.",
+    "UNEXPECTED_PROCESSING_ERROR": "Wystąpił nieoczekiwany błąd podczas przetwarzania PDF-ów."
+  }
+}

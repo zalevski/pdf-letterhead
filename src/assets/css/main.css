@@ -1,0 +1,41 @@
+@import "tailwindcss";
+@import "@nuxt/ui";
+
+:root {
+  color-scheme: light dark;
+}
+
+html,
+body,
+#__nuxt {
+  min-height: 100%;
+}
+
+html.dark {
+  color-scheme: dark;
+  --app-shell-bg:
+    radial-gradient(circle at top left, rgba(79, 70, 229, 0.1), transparent 25%),
+    radial-gradient(circle at bottom right, rgba(99, 102, 241, 0.08), transparent 22%),
+    #09090b;
+  --app-shell-surface: rgba(10, 10, 15, 0.86);
+  --app-shell-surface-border: rgba(63, 63, 70, 0.82);
+  --app-shell-glow-a: rgba(79, 70, 229, 0.2);
+  --app-shell-glow-b: rgba(14, 165, 233, 0.08);
+}
+
+html:not(.dark) {
+  color-scheme: light;
+  --app-shell-bg:
+    radial-gradient(circle at top left, rgba(99, 102, 241, 0.12), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(59, 130, 246, 0.08), transparent 22%),
+    #f4f7fb;
+  --app-shell-surface: rgba(255, 255, 255, 0.88);
+  --app-shell-surface-border: rgba(148, 163, 184, 0.3);
+  --app-shell-glow-a: rgba(99, 102, 241, 0.14);
+  --app-shell-glow-b: rgba(59, 130, 246, 0.08);
+}
+
+body {
+  margin: 0;
+  background: var(--app-shell-bg);
+}
