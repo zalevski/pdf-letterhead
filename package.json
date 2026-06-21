@@ -2,7 +2,7 @@
   "name": "pdf-letterhead",
   "private": true,
   "version": "0.1.0",
-  "description": "Desktop app for overlaying PDF letterheads onto input PDFs.",
+  "description": "Desktop app for branding PDFs with company letterheads.",
   "scripts": {
     "dev": "tauri dev",
     "dev:renderer": "nuxt dev",

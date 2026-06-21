@@ -1,7 +1,7 @@
 {
   "app": {
-    "title": "PDF Letterhead",
-    "subtitle": "Generate PDFs on company letterhead"
+    "title": "PDF Brander",
+    "subtitle": "Brand PDFs with company letterheads"
   },
   "language": {
     "label": "Language",

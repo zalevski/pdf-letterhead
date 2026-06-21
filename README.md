@@ -1,6 +1,6 @@
-# PDF Letterhead
+# PDF Brander
 
-Desktop app for applying a company letterhead PDF as a background to one or more input PDFs.
+Desktop app for branding PDFs with a company letterhead background.
 
 ## Stack
 
@@ -19,6 +19,7 @@ Desktop app for applying a company letterhead PDF as a background to one or more
 - Preserve each input page size.
 - Overlay the input page on top of the letterhead background.
 - Support English, Polish, and German UI text.
+- Process everything locally on your machine.
 
 ## Scripts
 

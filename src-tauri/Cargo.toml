@@ -1,7 +1,7 @@
 [package]
 name = "pdf-letterhead"
 version = "0.1.0"
-description = "PDF Letterhead"
+description = "PDF Brander"
 authors = ["zalev"]
 license = ""
 repository = ""
